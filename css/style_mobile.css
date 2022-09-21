@@ -1,0 +1,75 @@
+/* html{
+    width: 100vw;
+} */
+body{
+    display: inline-block;
+}
+.header {
+    background-image: url("../img/banner-mobile.jpg");
+    
+     height: 100vh;
+    margin: 0;
+    width: 100%;
+}
+.container_top {
+    display: block;
+    
+}
+
+.logo{
+    width: 160px;
+    margin-top: 245px;
+    margin-left: 100px;
+}
+.list {
+    display: none;
+}
+.menu_icon{
+    display: block;
+    filter: invert(99%) sepia(40%) saturate(923%) hue-rotate(199deg) 
+    brightness(117%) contrast(97%);
+    margin-top: -262px;
+    margin-left: 320px;
+    margin-bottom: 200px;
+}
+.banner_text{
+    font-size: 26px;
+    padding: 86px 0px 5px 5px;
+    line-height: 1.5;
+}
+
+.trends{
+    flex-direction: column;
+    
+}
+.trend{
+    box-sizing: border-box;
+    width: 100%;
+    margin-bottom: 4px;
+}
+.page{
+    flex-direction: column;
+    margin: 45px auto 0px auto;
+}
+.main{
+    margin: 0 auto;
+}
+.section{
+    margin: 0 auto;
+    flex-direction: column;
+     margin-bottom: 60px;
+    margin-left: 5px;
+}
+.pic{
+    width: calc(100% - 30px);
+    margin: 0 auto;
+}
+.aside{
+    margin: 0 auto;
+}
+.products{
+    margin: 0;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

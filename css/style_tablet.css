@@ -1,0 +1,135 @@
+body{
+    display: inline-block;
+    /* width: 100vw;
+    margin: 0 auto; */
+}
+.header {
+    background-image: url("../img/banner-bg-tablet.jpg");
+    height: 395px;
+    width: 100%;
+    margin-bottom: 20px;
+    background-position: center;
+}
+.container_top{
+    justify-content: space-evenly;
+}
+.logo{
+    width: 160px;
+    margin-top: 42px;
+    margin-left: 25px;
+}
+.list {
+    display: none;
+}
+.menu_icon{
+    display: block;
+    filter: invert(99%) sepia(40%) saturate(923%) hue-rotate(199deg) 
+    brightness(117%) contrast(97%);
+    margin: 5px 25px 5px 5px;
+}
+/* .menu_icon_mobile{
+    display: none;
+} */
+.banner_text{
+    font-size: 37px;
+    padding: 86px 0px 5px 5px;
+    line-height: 1.5;
+}
+.now_in_trend{
+    width: 100%;
+}
+.trend_title{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.trends{
+flex-wrap: wrap;
+}
+.trend{
+    width: calc(50% - 2px);
+    height: 245px;
+    margin-bottom: 4px;
+}
+
+.trend_text{
+    font-size: 1rem;
+    margin: 5px 5px 1px 0px;
+}
+.page{
+    /* margin-top: 48px; */
+    /* margin-left: 30px;
+    margin-right: 25px; */
+    /* margin: 0 auto; */
+    margin: 48px auto 0px auto;
+}
+.main{
+    /* margin-right: 10px; */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.section {
+    flex-direction: column;
+    margin-bottom: 60px;
+    margin-left: 5px;
+     max-width: 381px;
+  }
+  .pic{
+    /* max-width: 100%; */
+     height: 302px;
+    margin-bottom: 13px;
+  }
+  .section_teg{
+    font-size: 0.9rem;
+    margin-bottom: 5px;
+  }
+  .section_teg_text{
+    margin-right: 26px;
+  }
+  .section_title{
+    font-size: 1rem;
+  }
+  .section_info {
+    margin-bottom: 14px;
+}
+.aside{
+    /* margin-right: 10px; */
+    margin: 0 auto;
+    box-sizing: border-box;
+     max-width: 270px;
+}
+/* .aside_pic{
+    max-width: 100%;
+} */
+.product_title{
+    margin-top: -9px;
+}
+.products{
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0 auto;
+    max-width: 1200px;
+    margin-bottom: 62px;
+  }
+  .product:nth-child(3){
+    margin: 30px auto 0px 43px;
+} 
+.product{
+    width: calc(50% - 65px);
+}
+.product_item {
+    margin-top: -18px;
+    margin-left: -8px;
+    margin-right: -8px;
+}
+.product_item_text {
+    margin-left: 5px;
+}
+.prise_buy{
+    margin-right: 22px;
+}
+.product_item_last{
+    margin-bottom: -38px;
+}
+.address {
+margin-bottom: 43px;
+}
